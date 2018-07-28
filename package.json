@@ -1,0 +1,26 @@
+{
+  "name": "pirple",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "index.js",
+  "scripts": {
+    "hw1": "./node_modules/.bin/babel --presets es2015 -d dist homework1/; node dist/api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icethorn/pirple-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icethorn/pirple-hw/issues"
+  },
+  "homepage": "https://github.com/icethorn/pirple-hw#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
